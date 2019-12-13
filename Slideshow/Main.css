@@ -1,0 +1,29 @@
+header{
+    background-color: rgb(46, 74, 98);
+    height: 190px;
+    color: rgb(240, 237, 229);
+    text-align: center;
+}
+
+h1{
+    font-size: 55px;
+}
+
+body{
+    background-color: rgb(180, 183, 186);
+    text-align: center;
+}
+
+footer{
+    background-color: rgb(192, 171, 142);
+    height: 300px;
+}
+
+[data-component="slideshow"] .slide {
+    display: none;
+  }
+
+  [data-component="slideshow"] .slide.active {
+    display: block;
+  }
+
