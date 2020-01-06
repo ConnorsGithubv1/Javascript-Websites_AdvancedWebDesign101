@@ -1,22 +1,39 @@
 var myQuestions = [
   {
-      question: "What is 10/2?",
+      question: "Who was the 3rd president?",
       answers: {
-          a: '3',
-          b: '5',
-          c: '115'
+          a: 'Lincoln',
+          b: 'Thomas Jefferson',
+          c: 'George Washington'
       },
       correctAnswer: 'b'
   },
   {
-      question: "What is 30/3?",
+      question: "Where is Whitehouse located?",
       answers: {
-          a: '3',
-          b: '5',
-          c: '10'
+          a: 'Washington D.C.',
+          b: 'Florida',
+          c: 'Albania'
       },
-      correctAnswer: 'c'
-  }
+      correctAnswer: 'a'
+  },
+{
+    question: "Who is current president?",
+    answers: {
+        a: 'Bernie',
+        b: 'Hillary',
+        c: 'Trump'
+    },
+    correctAnswer: 'c'
+},{
+    question: "What year is it?",
+    answers: {
+        a: '1999',
+        b: '2021',
+        c: '2020'
+    },
+    correctAnswer: 'c'
+}
 ];
 
 var quizContainer = document.getElementById('quiz');
